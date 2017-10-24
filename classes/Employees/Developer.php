@@ -15,7 +15,8 @@ include_once('Worker.php');
  */
 
 
-class Developer extends Worker{
+class Developer extends Worker
+{
     public function getPayment():int {
         return $this->payment;
     }

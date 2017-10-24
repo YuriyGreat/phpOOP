@@ -1,5 +1,5 @@
 <?php
-
+declare(strict_types=1);
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -16,7 +16,8 @@ include_once('classes/Employees/Developer.php');
 include_once('classes/Employees/HTMLdeveloper.php');
 include_once('classes/Employees/Designer.php');
 
-class Team {
+class Team 
+{
     private $teamName;
     private $workers;
 

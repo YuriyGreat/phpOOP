@@ -26,7 +26,8 @@ include_once('classes/Employees/Worker.php');
 include_once('classes/Employees/Developer.php');
 include_once('classes/Employees/HTMLdeveloper.php');
 
-class Designer extends Worker{
+class Designer extends Worker
+{
     public function getPayment():int {
         return $this->payment;
     }

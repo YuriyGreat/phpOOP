@@ -13,7 +13,8 @@ declare(strict_types=1);
  */
 
 
-abstract class Worker {
+abstract class Worker 
+{
     protected $isFixed;
     protected $payment;
     protected $name;

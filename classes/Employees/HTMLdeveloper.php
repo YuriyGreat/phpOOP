@@ -13,7 +13,8 @@ include_once('Worker.php');
  *
  * @author yuriy
  */
-class HTMLdeveloper extends Worker {
+class HTMLdeveloper extends Worker 
+{
     public function getPayment():int {
         return $this->payment;
     }
